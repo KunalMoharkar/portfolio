@@ -1,0 +1,67 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    padding: 10px;
+    margin: 20px;
+}
+
+
+.linkContainer{
+
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.imgContainer{
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 3px;
+    margin: 3px;
+
+}
+
+.round-img{
+
+    display: block;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.desContainer{
+    text-align: center;
+}
+
+.navContainer{
+
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content:space-evenly;
+    margin-top :10px;
+    
+}
+
+.links{
+
+    color: #774CF1;
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: bold;
+
+}
+
+.icons{
+
+    padding: 2px;
+    margin: 3px;
+
+
+}
