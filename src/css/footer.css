@@ -1,0 +1,30 @@
+.footer{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #d9d9d4;
+    padding:10px;
+    border-radius:3px;
+
+}
+
+.footerLinks{
+
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footerIcons{
+    padding: 5px;
+}
+
+.footerContact{
+    padding: 5px;   
+}
