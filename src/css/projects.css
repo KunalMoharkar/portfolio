@@ -1,16 +1,43 @@
-.header{
 
-    text-align: center;
-    padding: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 3px;
-    background-image: linear-gradient(#774CF1,white);
+.projectDescription{
+    margin-bottom:0px;
+}
+
+.projectHeaderText{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.projectFooter{
+
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-start;
+    margin-top:0px;
 
 }
 
+.projectTags{
 
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+}
+.projectLinks{
 
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.tagContainer{
+
+    border:2px solid black;
+    border-radius: 15px;
+    padding:1px;
+    margin-left: 2px;
+}
 .name{
     font-size:x-large;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;

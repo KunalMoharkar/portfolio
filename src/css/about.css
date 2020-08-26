@@ -1,0 +1,41 @@
+.blockquote{
+
+    text-align: center;
+    font-size: 1.4rem;
+    opacity : 0.5;
+  
+}
+
+.aboutTextContainer{
+
+    text-align: justify;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resumeButton{
+
+    border-radius: 15px;
+    padding:10px;
+    margin:4px;
+    color:white;
+    background-color: darkblue;
+   
+}
+
+.resumeButton:hover{
+    background-color:white;
+    color: blue;
+    border : 1px solid black;
+}
+
+.aboutText{
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
