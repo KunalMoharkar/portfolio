@@ -7,8 +7,8 @@ export const Skills=()=>{
 
         return(
             <div>
-                <Header text="Skills"/>
                     <div className="container">
+                    <h2 className="headlinks">Skills</h2>
                         <div className="row">
                             <div className="col-sm-4">
                                 <div className="card">
@@ -58,7 +58,6 @@ export const Skills=()=>{
                             </div>
                         </div>
                     </div>
-                <Footer/>
             </div>
         )
     

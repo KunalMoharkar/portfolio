@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;  
-    padding: 10px;
+    padding: 20px;
     margin: 20px;
 }
 
@@ -45,7 +45,8 @@
     flex-direction: row;
     align-items: baseline;
     justify-content:space-evenly;
-    margin-top :10px;
+
+    margin-top :30px;
     
 }
 
@@ -57,6 +58,21 @@
 
 }
 
+@media only screen and (max-width: 760px) {
+
+    .homeContainer{
+        margin-top: 60px;
+    }
+
+    .navContainer{
+
+        justify-content: space-between;
+    }
+    .links {
+      font-size: 24px;
+    }
+  }
+
 .links:hover{
     text-decoration:none;
 }
@@ -64,7 +80,9 @@
 .icons{
 
     padding: 2px;
-    margin: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
+
 
 
 }
@@ -74,6 +92,7 @@
     color: black;
     border-radius:50%;
     font-weight: bold;
+    padding: 5px;
 
 }
 
@@ -81,3 +100,4 @@
     color: grey;
     text-decoration: solid;
 }
+

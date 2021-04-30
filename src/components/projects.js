@@ -11,8 +11,8 @@ export const Projects=()=>{
     return(
         
         <div>
-            <Header text="Projects"/>
             <div className="container">
+            <h2 className="headlinks">Projects</h2>
                 <div className="projectContainer">
                     <ul>
                         {
@@ -40,7 +40,6 @@ export const Projects=()=>{
                 </div>
 
             </div>
-            <Footer />
         </div>
 
     )
