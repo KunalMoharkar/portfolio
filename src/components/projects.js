@@ -14,29 +14,39 @@ export const Projects=()=>{
             <div className="container">
             <h2 className="headlinks">Projects</h2>
                 <div className="projectContainer">
-                    <ul>
+                    
                         {
 
                         ProjectList.map((project)=>{
 
                             return(
-                                    <li>
+                                    <div>
                                         <div className="projectHeader">
-                                            <a href={project.links[0]} className="iconLink">{project.name}</a>
+                                            <a href={project.links[0]}>{project.name}</a>
                                         </div>
                                         <div className="projectDescription">
                                             <p>{project.description}</p>
                                         </div>
-                                            <div className="projectFooter">     
+                                        <div className="projectFooter">     
+                                          
+                                                {
+                                                    project.tags.map((tag)=>{
+                                                        return(
+                                                            <span>
+                                                                {tag}
+                                                            </span>
+                                                        )
+                                                    })
+                                                }
                                         </div>
-                                    </li>
+                                    </div> 
                                 )
 
                              })
                         
                     }
                      
-                    </ul>
+                    
                 </div>
 
             </div>

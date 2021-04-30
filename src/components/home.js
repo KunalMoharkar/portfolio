@@ -34,8 +34,9 @@ export const Home=()=>{
 
             <div className="navContainer">
                 <Link to={`/About/`} className="links">About</Link>
-                <Link to={`/Skills/`} className="links">Skills</Link>
                 <Link to={`/Projects/`} className="links">Projects</Link>
+                <Link to={`/Skills/`} className="links">Skills</Link>
+                
             </div>
 
         </div>
