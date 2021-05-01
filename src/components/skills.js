@@ -9,54 +9,52 @@ export const Skills=()=>{
             <div>
                     <div className="container">
                     <h2 className="headlinks">Skills</h2>
-                        <div className="row">
-                            <div className="col-sm-4">
-                                <div className="card">
-                                    <div className="card-header bg-info">
-                                        <h4>Skilled</h4> 
-                                    </div>
-                                    <div className="card-body">
-                                        <ul>
-                                            <li>C Programming</li>
-                                            <li>C++ Programming</li>
-                                        </ul>
-                                    </div>
-                                </div>
+
+                    <div className="skills-container">
+                        <div>
+                            <div className="skills-header">
+                                <p>Skilled</p>
                             </div>
-                            <div className="col-sm-4">
-                                <div className="card">
-                                    <div className="card-header bg-info">
-                                        <h4>Intermediate</h4> 
-                                    </div>
-                                    <div className="card-body">
-                                        <ul>
-                                            <li>Java Programming</li>
-                                            <li>Javscript</li>
-                                            <li>Java Servlets</li>
-                                            <li>JSP</li>
-                                            <li>React</li>
-                                            <li>Django</li>
-                                            <li>SQL</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-sm-4">
-                                <div className="card">
-                                    <div className="card-header bg-info">
-                                        <h4>Beginner</h4> 
-                                    </div>
-                                    <div className="card-body">
-                                        <ul>
-                                            <li>Python Programming</li>
-                                            <li>PHP</li>
-                                            <li>Express</li>
-                                            <li>React-Native</li>
-                                        </ul>
-                                    </div>
-                                </div>
+                            <div className="projectFooter">
+                                <span>Django</span>
+                                <span>Django Rest</span>
+                                <span>CSS</span>
+                                <span>Responsive Design</span>
                             </div>
                         </div>
+
+                        <div>
+                            <div className="skills-header">
+                                <p>Intermediate</p>
+                            </div>
+                            <div className="projectFooter">
+                                <span>React JS</span>
+                                <span>React Native</span>
+                                <span>Java Servlets</span>
+                                <span>JSP</span>
+                                <span>PHP</span>
+                                <span>AWS</span>
+                                <span>jQuery</span>
+                                <span>Version Control</span>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div className="skills-header">
+                                <p>Beginner</p>
+                            </div>
+                            <div className="projectFooter">
+                                <span>Saas</span>
+                                <span>Docker</span>
+                                <span>Node JS</span>
+                                <span>Express JS</span>
+                                <span>Adobe XD</span>
+                                <span>Travis CI</span>
+                            </div>
+                        </div>
+                    </div> 
+                    
+
                     </div>
             </div>
         )
