@@ -11,9 +11,9 @@ export const Routes=()=>{
 
         <Switch>
             <Route exact path={process.env.PUBLIC_URL+"/"} component={Home}/>
-            <Route exact path={"/About/"} component={About}/>
-            <Route exact path={"/Skills/"} component={Skills}/>
-            <Route exact path={"/Projects/"} component={Projects}/>
+            <Route exact path={process.env.PUBLIC_URL+"/About/"} component={About}/>
+            <Route exact path={process.env.PUBLIC_URL+"/Skills/"} component={Skills}/>
+            <Route exact path={process.env.PUBLIC_URL+"/Projects/"} component={Projects}/>
         </Switch>
     )
 
