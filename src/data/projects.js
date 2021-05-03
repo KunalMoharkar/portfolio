@@ -47,7 +47,7 @@ export const ProjectList = [
     {
         "name":"Compkit",
         "description":"A static React Native mobile app is a collection of trending technologies and useful resources for programmers. A quotes section using remote API calls was also implemented. ",
-        "tags":["React-Native","Expo"],
+        "tags":["React-Native","Expo","React-navigation"],
         "isdeployed":true,
         "links":["https://github.com/KunalMoharkar",""]
     },

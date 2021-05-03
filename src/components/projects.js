@@ -15,7 +15,7 @@ export const Projects=()=>{
             <h2 className="headlinks">Projects</h2>
                 <div className="projectContainer">
                     
-                        {
+                    {
 
                         ProjectList.map((project)=>{
 
@@ -44,7 +44,9 @@ export const Projects=()=>{
 
                              })
                         
-                    }
+                      }
+
+
                      
                     
                 </div>

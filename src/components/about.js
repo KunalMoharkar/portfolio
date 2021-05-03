@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import {Footer} from './footer';
 import {Header} from './header';
 import '../css/about.css'
+import Resume from '../images/Kunal_moharkar_resume.pdf';
 
 export const About=()=>{
 
@@ -11,9 +12,9 @@ export const About=()=>{
     const moreAboutcontent = 
                 <div>
                 <p className="aboutText">
-                    My journey with programming started in my freshmen year and from <i>"hello world" </i> 
+                    My journey with programming started in my freshmen year and from "hello world" 
                     to modern web frameworks there was no looking back. 
-                    <i> "The day you stop learning is the day you start deteriorating"</i>, this saying drives me.
+                    "The day you stop learning is the day you start deteriorating", this saying drives me.
                     I love experimenting with new techs, brainstorming new ideas, and bringing them to life through my coding skills.
                     I have been fond of sports since middle school and enjoy playing badminton.
                     With my College and side projects,
@@ -21,7 +22,7 @@ export const About=()=>{
                   </p>
                   {!connect?
                        <div className="buttonContainer">
-                       <button className="btn btn-primary resumeButton">View Resume</button>
+                       <a href={Resume}><button className="btn btn-primary resumeButton">View Resume</button></a>
                        <button className="btn btn-primary resumeButton" onClick={() => setConnect(true)}>Connect with me</button>
                     </div>
                         :null
@@ -31,12 +32,13 @@ export const About=()=>{
 
     const connectContent = 
                     <div>
-                    <p className="aboutText">
-                        you can contact me on <a href="linkedin.com/in/kunal-moharkar-31ba49168">linkedin</a> or simply drop a mail at 
+                    <p className="aboutText" style={{'textAlign':'center'}}>
+                        I am actively looking for opportunities in Fullstack and related fields.
+                        You can contact me on <a href="linkedin.com/in/kunal-moharkar-31ba49168">linkedin</a> or simply drop a mail at 
                         <a href="mailto:kunalmoharkar1700@gmail.com"> kunalmoharkar1700@gmail.com</a>
                     </p>
                     <div className="buttonContainer">
-                       <button className="btn btn-primary resumeButton">View Resume</button>
+                       <a href={Resume}><button className="btn btn-primary resumeButton">View Resume</button></a>
                     </div>
                     </div>
 
@@ -54,7 +56,7 @@ export const About=()=>{
                     </p>
                     {!moreAbout?
                         <div className="buttonContainer">
-                            <button className="btn btn-primary resumeButton">View Resume</button>
+                            <a href={Resume}><button className="btn btn-primary resumeButton">View Resume</button></a>
                             <button className="btn btn-primary resumeButton" onClick={() => setmoreAbout(true)}>More about me</button>
                         </div>
                         :null
@@ -62,11 +64,7 @@ export const About=()=>{
             
                     {moreAbout?moreAboutcontent:null}
 
-                    {connect?connectContent:null}
-
-
-
-                   
+                    {connect?connectContent:null}                   
                     </div>
                     
                 </div>
