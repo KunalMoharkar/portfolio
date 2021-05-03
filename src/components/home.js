@@ -25,7 +25,7 @@ export const Home=()=>{
                 <a className="iconLink" href='https://linkedin.com/in/kunal-moharkar-31ba49168'>
                     <FontAwesomeIcon  className="icons" icon={['fab', 'linkedin']} style={{'font-size':'30px'}} />
                 </a>
-                <a className="iconLink" href='href="mailto:kunalmoharkar1700@gmail.com"'>
+                <a className="iconLink" href="mailto:kunalmoharkar1700@gmail.com">
                     <FontAwesomeIcon  className="icons" icon={['fab', 'google']} style={{'font-size':'28px'}} />
                 </a>
             
