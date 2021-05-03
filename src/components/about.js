@@ -34,7 +34,7 @@ export const About=()=>{
                     <div>
                     <p className="aboutText" style={{'textAlign':'center'}}>
                         I am actively looking for opportunities in Fullstack and related fields.
-                        You can contact me on <a href="linkedin.com/in/kunal-moharkar-31ba49168">linkedin</a> or simply drop a mail at 
+                        You can contact me on <a href="https://linkedin.com/in/kunal-moharkar-31ba49168">linkedin</a> or simply drop a mail at 
                         <a href="mailto:kunalmoharkar1700@gmail.com"> kunalmoharkar1700@gmail.com</a>
                     </p>
                     <div className="buttonContainer">
