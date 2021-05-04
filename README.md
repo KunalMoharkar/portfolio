@@ -1,6 +1,6 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/788d9dc3-6dbf-4f44-9b49-8d832695aac7/deploy-status)](https://app.netlify.com/sites/kunal-moharkar/deploys)
 
-Personal portfolio website - kunal-moharkar.netlify.app
+Personal portfolio website - https://kunal-moharkar.netlify.app
 
 ## Setup instructions
 
