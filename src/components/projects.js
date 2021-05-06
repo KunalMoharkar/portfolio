@@ -52,7 +52,8 @@ export const Projects=()=>{
 
                 <div className="projectDescription" style={{'text-align':'center'}}>
                     
-                    <p>Along with the above major projects. I have also worked on some mini projects as part of hackathons, freelancing, and most of them just because I love to do it.</p>
+                    <p>Along with the above major projects. I have also worked on some mini projects as part of hackathons, freelancing, and most of them just for fun <i class="fa fa-smile-o" aria-hidden="true"></i></p>
+                    <i class='far fa-grin'></i>
                     {!more?
                     <button className="btn btn-primary resumeButton"  onClick={() => setMore(true)}>More of my work</button>
                     :null}
