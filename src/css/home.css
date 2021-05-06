@@ -45,9 +45,13 @@
     flex-direction: row;
     align-items: baseline;
     justify-content:space-evenly;
-
+    
     margin-top :30px;
     
+}
+
+.fade-ani{
+    animation: fadeIn 4s linear 1s 1;
 }
 
 .links{
@@ -55,7 +59,7 @@
     color: #2f73cc;
     font-size: 32px;
     font-weight: bold;
-
+    animation: slideInUp 1.5s linear 0s 1;
 }
 
 @media only screen and (max-width: 760px) {

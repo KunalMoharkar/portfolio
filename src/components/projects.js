@@ -24,7 +24,9 @@ export const Projects=()=>{
                             return(
                                     <div>
                                         <div className="projectHeader">
-                                            <a href={project.links[0]}>{project.name}</a>
+                                            <a href={project.links[0]}>{project.name} 
+                                            <i class="fa fa-external-link" style={{'marginLeft':'2px'}} aria-hidden="true"></i>
+                                            </a>
                                         </div>
                                         <div className="projectDescription">
                                             <p>{project.description}</p>

@@ -1,10 +1,19 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import Avatar from '../images/imgAvatar.jpeg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {Link} from 'react-router-dom';
 import '../css/home.css';
 
 export const Home=()=>{
+
+    const [loaded,setLoaded] = useState(false);
+
+    useEffect(()=>{
+
+        setLoaded(true);
+
+    },[])
+
 
     return(
         <div className="homeContainer">
