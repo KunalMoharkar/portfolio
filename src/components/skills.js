@@ -44,7 +44,7 @@ export const Skills=()=>{
                                 <p>Beginner</p>
                             </div>
                             <div className="projectFooter">
-                                <span>Saas</span>
+                                <span>Sass</span>
                                 <span>Docker</span>
                                 <span>Node JS</span>
                                 <span>Express JS</span>

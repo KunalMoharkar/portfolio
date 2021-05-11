@@ -59,7 +59,7 @@
     color: #2f73cc;
     font-size: 32px;
     font-weight: bold;
-    animation: slideInUp 1.5s linear 0s 1;
+    animation: slideInUp 0.7s linear 0s 1;
 }
 
 @media only screen and (max-width: 760px) {
