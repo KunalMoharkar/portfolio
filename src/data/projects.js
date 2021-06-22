@@ -45,7 +45,7 @@ export const ProjectList = [
 export const ProjectList1 = [
 
    
-
+/*
     {
         "name":"Rhythm",
         "description":"A freelance project where I developed a custom website for a clothing startup.",
@@ -53,6 +53,8 @@ export const ProjectList1 = [
         "isdeployed":false,
         "links":["https://rhythmsarees.in",""]
     },
+
+    */
 
     {
         "name":"VID-SUM",
@@ -87,14 +89,7 @@ export const ProjectList1 = [
         "links":["https://github.com/KunalMoharkar/compkit",""]
     },
 
-    {
-        "name":"Algo-sim",
-        "description":"This project is an attempt to simulate common CS algorithms for their better understanding. It makes use of React JS.",
-        "tags":["React"],
-        "isdeployed":true,
-        "links":["https://github.com/KunalMoharkar/Algo-sim",""]
-    },
-
+ 
 
     {
         "name":"Pomodoro Timer",
