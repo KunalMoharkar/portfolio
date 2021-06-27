@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {Footer} from './footer';
 import {Header} from './header';
 import '../css/about.css'
-import Resume from '../images/Kunal_moharkar_resume.pdf';
+import Resume from '../images/KunalMoharkar-resume.pdf';
 
 export const About=()=>{
 
