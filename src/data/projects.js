@@ -35,19 +35,16 @@ export const ProjectList = [
         "links":["https://kdm1700-chat-room.herokuapp.com/",""]
     },
 
-
-
-/*    
+   
     {
         "name":"Election Portal",
-        "description":"A platform to conduct online elections in Universities using Django. The app followed Agile practices making use of Kanban boards and Travis CI for continuous integration. The App was also dockerized for easy development and deployment",
+        "description":"A platform to conduct online elections in Universities using Django. Elections can be restricted based on departments. Candidates can apply for multiple elections within a time window. Results are made public after voting. Django admin was used for portal administration.",
         "tags":["Django","Sass","Docker","Travis CI"],
         "isdeployed":false,
-        "links":["https://github.com/KunalMoharkar",""]
+        "links":["https://devfolio.co/submissions/election-portal-3d66",""]
     },
 
-  
-*/
+
 ]
 
 
