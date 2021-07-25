@@ -27,6 +27,16 @@ export const ProjectList = [
         "links":["https://devfolio.co/submissions/proserv-2d93",""]
     },
 
+    {
+        "name":"Chatroom",
+        "description":"Developed using Node JS, Express JS and sockets.io chatroom is a free to use API for building chat plugins for applications. It makes use of web sockets to establish a bidirectional, full duplex connection for real time experience.",
+        "tags":["Express JS","React","Socket.io"],
+        "isdeployed":false,
+        "links":["https://kdm1700-chat-room.herokuapp.com/",""]
+    },
+
+
+
 /*    
     {
         "name":"Election Portal",
